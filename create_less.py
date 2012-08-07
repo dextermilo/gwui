@@ -3,7 +3,7 @@ import sys
 
 def process_file():
     
-    f = open('bootstrap/bootstrap.css', 'r')
+    f = open('lib/mixer.css', 'r')
     output = open('gwui.less', 'w')
     output.write('.gwui {\n')
     for line in f:
